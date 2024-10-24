@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <h1 class="logo">My Logo</h1>
+            <div class="menu-toggle">
+                <span>&#9776;</span>
+            </div>
+        </div>
+    </header>
+    <!-- MOBILE MENU -->
+    <div class="mobile-menu">
+        <button class="close-menu">&times;</button>
+        <nav>
+            <ul>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+    <!-- Hero Section -->
+    <section class="headline">
+        <div class="container">
+            <h2>I'm Hamza.<br>Glad to see you!</h2>
+            <p>I'm a software developer! I can help you build a product, feature, or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
+            <div class="social-links">
+                <a href="#">Twitter</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">Medium</a>
+                <a href="#">GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Works Section -->
+    <section id="portfolio" class="works">
+        <h2>My Projects</h2>
+        <div class="grid-container">
+            <div class="card">
+                <img src="tonic.png" alt="Tonic Project">
+                <h3>Tonic</h3>
+                <ul class="project-info">
+                    <li>Canopy</li>
+                    <li>Back End Dev</li>
+                    <li>2015</li>
+                </ul>
+                <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+                <ul class="categories">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+                <a href="#" class="btn">See Project</a>
+            </div>
+            <!-- Repeated Project Card -->
+            <div class="card">
+                <img src="mulpost.png" alt="Multi-Post Stories">
+                <h3>Multi-Post Stories</h3>
+                <ul class="project-info">
+                    <li>Canopy</li>
+                    <li>Back End Dev</li>
+                    <li>2015</li>
+                </ul>
+                <p>A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+                <ul class="categories">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+                <a href="#" class="btn">See Project</a>
+            </div>
+            <!-- Add more project cards as needed -->
+        </div>
+    </section>
+
+  <!-- About Myself Section -->
+   <!-- About Myself Section -->
+   <section id = "about" class="about-myself">
+    <div class="container">
+        <h2>About Myself</h2>
+        <p>Hello! I'm a software developer! I can help you build a product, feature, or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
+
+        <div class="social-links">
+            <a href="#">Twitter</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">Medium</a>
+            <a href="#">GitHub</a>
+        </div>
+        
+        <a href="#" class="resume-btn">Get my resume</a>
+
+        <!-- Skills as Lists -->
+        <div class="skills-container">
+            <ul class="skills-list">
+                <li><strong>Languages:</strong>
+                    <ul>
+                        <li>JavaScript</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                </li>
+                <li><strong>Frameworks:</strong>
+                    <ul>
+                        <li>React</li>
+                        <li>Node.js</li>
+                    </ul>
+                </li>
+                <li><strong>Skills:</strong>
+                    <ul>
+                        <li>Web Development</li>
+                        <li>Backend Development</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+   <!-- Contact Me Section -->
+   <section id ="contact" class="contact-me">
+    <div class="container">
+        <h2>Contact Me</h2>
+        <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding, I’d love to help with it!</p>
+        
+        <form class="contact-form" action="#" method="post">
+            <input type="text" name="name" placeholder="Your Name" maxlength="30" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" maxlength="500" required></textarea>
+            <button type="submit">Get in touch</button>
+        </form>
+    </div>
+</section>
+
+<script src="mid.js"></script>
+
+
+</body>
+</html>
